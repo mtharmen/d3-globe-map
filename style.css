@@ -1,0 +1,58 @@
+body {
+  overflow: hidden;
+  background-color: #111;
+}
+
+#chart {
+  overflow: hidden;
+}
+
+.chart-content {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.water {
+  fill: #222;
+  fill-opacity: 1;
+}
+
+.land {
+  fill: #444;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.meteor {
+  fill: "red";
+  opacity: 0.5;
+  stroke: "white";
+  stroke-width: 1;
+}
+
+.meteor:hover {
+  fill: blue;
+}
+
+.tooltip {
+/*
+  width: 200px;
+  height: 100px;
+*/
+  background-color: black;
+  color: white;
+  font-family: monospace;
+/*  font-size: 25;*/
+/*  text-align: center;*/
+  border-radius: 5px;
+  padding: 25px;
+  position: absolute;
+}
+
+.button {
+  position: absolute;
+  left: 25;
+  top: 25;
+}
